@@ -1,0 +1,48 @@
+/* styles.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    margin-bottom: 10px;
+}
+
+canvas {
+    background-color: #000;
+}
+
+.instructions {
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.scoreboard {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    margin: 20px;
+    font-size: 16px;
+}
+
+.hidden {
+    display: none;
+}
